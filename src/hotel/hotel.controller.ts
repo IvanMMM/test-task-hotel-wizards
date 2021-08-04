@@ -6,7 +6,7 @@ import { HotelRoomBusyStatus } from './hotel-room-busy.entity';
 import { GetRoomBusyStatusDtoQuery } from './dto/get-room-busy-status.dto';
 import { ApiResponse, ApiTags } from '@nestjs/swagger';
 
-@Controller('hotels')
+@Controller('hotel')
 @ApiTags('hotel')
 export class HotelController {
   constructor(private hotelService: HotelService) {}
